@@ -32,8 +32,7 @@ bundle exec guard
 ```
 ## Tests
 ```Bash
-echo "require 'shoulda/matchers'
-$(cat spec/rails_helper.rb)" > spec/rails_helper.rb
+echo "require 'shoulda/matchers' >> spec/rails_helper.rb
 
 mkdir spec/models
 # spec/models
